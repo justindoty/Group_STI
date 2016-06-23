@@ -32,9 +32,9 @@ var percentSti = 0.0;
 
   if (percentSti > 0.13){
     percentSti =0.13;
-  }  
+  }
 
-
+  return percentSti;
 }
 
 function calcBonus (){
