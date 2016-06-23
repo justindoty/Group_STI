@@ -22,13 +22,17 @@ var percentSti = 0.0;
     percentSti = 0.1;
   }
 
-
+////
   if(arr[1].length == 4){
+    percentSti += 0.05;
+  }
+  if(arr[2] > 65000){
     percentSti -= 0.01;
   }
-  if(){
 
-  }
+  if (percentSti > 0.13){
+    percentSti =0.13;
+  }  
 
 
 }
